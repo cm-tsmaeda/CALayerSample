@@ -21,9 +21,9 @@ class ViewController: UIViewController {
     }
 
     @IBAction func addLayerButtonTapped() {
-        for _ in 0 ..< 100 {
+        //for _ in 0 ..< 100 {
             addRandomColoredLayer()
-        }
+        //}
     }
     
     func addRandomColoredLayer() {
